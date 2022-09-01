@@ -1,0 +1,19 @@
+{
+	"name": "ADLS_BIN_AWProduct",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsgen2_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Product.csv",
+				"folderPath": "Raw",
+				"fileSystem": "lakeroot"
+			}
+		}
+	}
+}
