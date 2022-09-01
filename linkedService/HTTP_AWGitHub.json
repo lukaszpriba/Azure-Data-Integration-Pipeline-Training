@@ -1,0 +1,13 @@
+{
+	"name": "HTTP_AWGitHub",
+	"properties": {
+		"description": "created as per section 3.1 @ https://github.com/lukaszpriba/Azure-Data-Integration-Pipeline-Training/blob/main/Labs/Lab%203%20-%20Create%20a%20reusable%20pipeline.pdf",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/microsoft/sql-server-samples/master/samples/databases/adventure-works/oltp-install-script/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
