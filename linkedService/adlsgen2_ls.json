@@ -1,0 +1,10 @@
+{
+	"name": "adlsgen2_ls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://azuredataintegrationlabs.dfs.core.windows.net/"
+		}
+	}
+}
