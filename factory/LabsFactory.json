@@ -1,0 +1,9 @@
+{
+	"name": "LabsFactory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77dad000-bd25-4da1-9574-d1b18b59fa3f",
+		"tenantId": "10efe0bd-a030-4bca-809c-b5e6745e499a"
+	}
+}
