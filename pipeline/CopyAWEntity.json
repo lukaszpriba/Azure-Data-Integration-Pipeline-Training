@@ -48,7 +48,7 @@
 						"referenceName": "ADLS_BIN_AdventureWorks",
 						"type": "DatasetReference",
 						"parameters": {
-							"Entity": "@piprlinr().parameters.Entity"
+							"Entity": "@pipeline().parameters.Entity"
 						}
 					}
 				]
